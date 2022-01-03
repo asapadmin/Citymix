@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/styles.css" />
+    <title>Добро пожаловать в ЛК</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <ul class="main-breadcrumbs">
+        <li>Параметры сделки</li>
+        <li>Данные участников</li>
+        <li>Данные об оплате</li>
+        <li>Согласование ДДУ</li>
+        <li>Подписание документов</li>
+      </ul>
+      <h1 class="main-title">данные покупателя</h1>
+    </div>
+    <div class="main-content">
+      <div class="container">
+        <ul class="main-menu">
+          <li>
+            <a href=""><img src="/assets/images/sale.svg" alt="" />Покупка</a>
+          </li>
+          <li>
+            <a href=""
+              ><img src="/assets/images/favorite.svg" alt="" />Избранное</a
+            >
+          </li>
+          <li>
+            <a href=""
+              ><img src="/assets/images/match.svg" alt="" />Сравнение</a
+            >
+          </li>
+          <li>
+            <a href=""
+              ><img src="/assets/images/cart.svg" alt="" />Бронирования</a
+            >
+          </li>
+          <li>
+            <a href=""
+              ><img src="/assets/images/profile.svg" alt="" />Профиль</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="page-container">
+        <div class="step-container">
+          <div class="row">
+            <a class="back-link" href="">
+              <img src="/assets/images/back-arrow.svg" alt="" />
+              назад</a
+            >
+          </div>
+          <div class="row">
+            <span class="step-image"></span>
+            <div class="step-top">
+              <h1 class="step-title">шаг 1</h1>
+              <span class="step-hint">ввод данных</span>
+            </div>
+          </div>
+          <div class="row">
+            <p class="step-description">
+              При бронировании необходимо указать корректные ФИО, номер телефона
+              и email человека, который будет учавстовать в сделке
+            </p>
+          </div>
+          <div class="row fc">
+            <span class="progress-bar">
+              <span class="progress"></span>
+            </span>
+            <span class="progress-description">Шаг 1 из 3 </span>
+          </div>
+        </div>
+        <div class="content">
+          <h1 class="content-title">Личные данные</h1>
+          <form class="user-form" name="message" method="post">
+            <div class="form-part">
+              <div class="form-row">
+                <label for="name">Фамилия, имя, отчество</label>
+                <input id="name" type="text" value="" name="name" />
+              </div>
+              <div class="form-row d-flex">
+                <label class="switch">
+                  <input type="checkbox" checked />
+                  <span class="slider round">
+                    <span class="slider-center"></span>
+                  </span>
+                </label>
+                <span class="form-info">Я гражданин РФ</span>
+              </div>
+              <div
+                class="form-row space-between pc"
+                style="display: flex; align-items: end; width: 89%"
+              >
+                <div>
+                  <label for="email">Дата рождения</label>
+                  <select>
+                    <option value="date">1</option>
+                    <option value="date">2</option>
+                    <option value="date">3</option>
+                    <option value="date">3</option>
+                  </select>
+                </div>
+                <div>
+                  <label for="email">Серия и номер паспорта</label>
+                  <input id="email" type="text" value="" name="email" />
+                </div>
+              </div>
+              <div class="form-row mobile">
+                <label for="email">Дата рождения</label>
+                <select>
+                  <option value="date">1</option>
+                  <option value="date">2</option>
+                  <option value="date">3</option>
+                  <option value="date">3</option>
+                </select>
+                <label for="email" style="margin-top: 10px"
+                  >Серия и номер паспорта</label
+                >
+                <input id="email" type="text" value="" name="email" />
+              </div>
+              <div class="form-row">
+                <label for="email">Телефон</label>
+                <input id="email" type="text" value="" name="email" />
+              </div>
+              <div class="form-row">
+                <label for="email">Email</label>
+                <input id="email" type="text" value="" name="email" />
+              </div>
+            </div>
+            <div class="form-part">
+              <h4 class="form-title">Собственниками будут</h4>
+              <div class="form-row">
+                <select>
+                  <option value="date">1</option>
+                  <option value="date">2</option>
+                  <option value="date">3</option>
+                  <option value="date">3</option>
+                </select>
+              </div>
+              <h4 class="form-title">Планируемый способ оплаты</h4>
+              <div class="form-row d-flex">
+                <label class="container-checkbox"
+                  >100% оплата
+                  <input type="radio" name="radio" />
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container-checkbox"
+                  >Рассрочка
+                  <input type="radio" name="radio" />
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container-checkbox"
+                  >Ипотека
+                  <input type="radio" name="radio" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div class="form-row">
+                <button class="accept-btn">Подтвердить данные</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/styles.css" />
+    <title>Добро пожаловать в ЛК</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <ul class="main-breadcrumbs">
+        <li>Параметры сделки</li>
+        <li>Данные участников</li>
+        <li>Данные об оплате</li>
+        <li>Согласование ДДУ</li>
+        <li>Подписание документов</li>
+      </ul>
+      <h1 class="main-title">данные покупателя</h1>
+    </div>
+    <div class="main-content">
+      <div class="container">
+        <ul class="main-menu">
+          <li>
+            <a href=""><img src="/assets/images/sale.svg" alt="" />Покупка</a>
+          </li>
+          <li>
+            <a href=""
+              ><img src="/assets/images/favorite.svg" alt="" />Избранное</a
+            >
+          </li>
+          <li>
+            <a href=""
+              ><img src="/assets/images/match.svg" alt="" />Сравнение</a
+            >
+          </li>
+          <li>
+            <a href=""
+              ><img src="/assets/images/cart.svg" alt="" />Бронирования</a
+            >
+          </li>
+          <li>
+            <a href=""
+              ><img src="/assets/images/profile.svg" alt="" />Профиль</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="page-container">
+        <div class="step-container">
+          <div class="row">
+            <a class="back-link" href="">
+              <img src="/assets/images/back-arrow.svg" alt="" />
+              назад</a
+            >
+          </div>
+          <div class="row">
+            <span class="step-image"></span>
+            <div class="step-top">
+              <h1 class="step-title">шаг 1</h1>
+              <span class="step-hint">ввод данных</span>
+            </div>
+          </div>
+          <div class="row">
+            <p class="step-description">
+              При бронировании необходимо указать корректные ФИО, номер телефона
+              и email человека, который будет учавстовать в сделке
+            </p>
+          </div>
+          <div class="row fc">
+            <span class="progress-bar">
+              <span class="progress"></span>
+            </span>
+            <span class="progress-description">Шаг 1 из 3 </span>
+          </div>
+        </div>
+        <div class="content">
+          <h1 class="content-title">Параметры бронирования</h1>
+          <div class="order-block">
+            <div class="order-item">
+              <span> Параметры помещения </span>
+              <div class="order-desc">
+                <h1>Однокомнатная квартира</h1>
+                <span>Планировка 1SEX_400 54,54 кв. м</span>
+              </div>
+              <div class="order-price">
+                <img src="/assets/images/price.svg" />
+                <span>10 543 423 Р</span>
+              </div>
+            </div>
+            <div class="order-item-options">
+              <div class="option-cont">
+                <span>Параметры бронирования</span>
+                <div class="item-options">
+                  <div class="item-option">
+                    <span>Забронировать и зафиксировать цену на 10 дней</span>
+                    <label class="container-checkbox">
+                      5000р
+                      <input type="radio" name="radio" />
+                      <span class="checkmark"></span>
+                    </label>
+                  </div>
+                  <div class="item-option">
+                    <span>Забронировать на день</span>
+                    <label class="container-checkbox">
+                      бесплатно
+                      <input type="radio" name="radio" />
+                      <span class="checkmark"></span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="order-info" style="display: none">
+                <span>Данные покупателя</span>
+                <div class="info">
+                  <span class="info-name">Петр Пустота</span>
+                  <span class="info-mail">ne.chapaev@om.ru</span>
+                  <span class="info-phone">79152641888</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

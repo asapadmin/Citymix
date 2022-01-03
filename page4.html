@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/styles.css" />
+    <title>Добро пожаловать в ЛК</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <ul class="main-breadcrumbs">
+        <li>Параметры сделки</li>
+        <li>Данные участников</li>
+        <li>Данные об оплате</li>
+        <li>Согласование ДДУ</li>
+        <li>Подписание документов</li>
+      </ul>
+      <h1 class="main-title">данные покупателя</h1>
+    </div>
+    <div class="main-content">
+      <div class="container">
+        <ul class="main-menu">
+          <li>
+            <a href=""><img src="/assets/images/sale.svg" alt="" />Покупка</a>
+          </li>
+          <li>
+            <a href=""
+              ><img src="/assets/images/favorite.svg" alt="" />Избранное</a
+            >
+          </li>
+          <li>
+            <a href=""
+              ><img src="/assets/images/match.svg" alt="" />Сравнение</a
+            >
+          </li>
+          <li>
+            <a href=""
+              ><img src="/assets/images/cart.svg" alt="" />Бронирования</a
+            >
+          </li>
+          <li>
+            <a href=""
+              ><img src="/assets/images/profile.svg" alt="" />Профиль</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="page-container">
+        <div class="content">
+          <div class="switcher-container">
+            <h1 class="switcher-title disabled">Регистрация</h1>
+            <h1 class="switcher-title">вход в ЛК</h1>
+          </div>
+          <form class="user-form" name="message" method="post">
+            <div class="form-part" style="padding: 0px">
+              <div class="form-row">
+                <label for="email">Телефон</label>
+                <input
+                  id="email"
+                  type="text"
+                  value=""
+                  name="email"
+                  placeholder="+7 (___) ____ -___-___"
+                />
+                <span class="content-description"
+                  >Мы выслали код подтверждения на указанный номер. Введите
+                  его.</span
+                >
+              </div>
+              <div class="form-row">
+                <button class="accept-btn">Войти в кабинет</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
